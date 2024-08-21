@@ -8,10 +8,11 @@ const MovieCard = ({ movie }) => {
       />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{movie.title}</div>
-        <p className="font-semibold text-l mb-2">Director: {movie.director}</p>
+        <p className="font-semibold text-l mb-2">Director: </p>
         <p className="text-gray-700 text-base">
           {movie.year} • {movie.genres}
         </p>
+
         <p className="text-gray-600 text-sm">Length: {movie.length} min</p>
         {movie.rating && (
           <p className="text-yellow-600 font-semibold">

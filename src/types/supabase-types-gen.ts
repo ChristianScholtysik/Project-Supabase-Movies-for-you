@@ -71,6 +71,7 @@ export type Database = {
           director_id: string
           genres: string | null
           id: string
+          image_Url: string | null
           length: number
           rating: number | null
           title: string
@@ -81,6 +82,7 @@ export type Database = {
           director_id: string
           genres?: string | null
           id?: string
+          image_Url?: string | null
           length: number
           rating?: number | null
           title: string
@@ -91,6 +93,7 @@ export type Database = {
           director_id?: string
           genres?: string | null
           id?: string
+          image_Url?: string | null
           length?: number
           rating?: number | null
           title?: string
