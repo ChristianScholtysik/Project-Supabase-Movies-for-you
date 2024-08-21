@@ -1,4 +1,4 @@
-import { Movie, MovieComplete } from "../types/supabase-types.own";
+import { MovieComplete } from "../types/supabase-types.own";
 
 interface MovieCardProps {
   movie: MovieComplete;
